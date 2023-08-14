@@ -1,0 +1,1332 @@
+[
+  {
+    "bike": [
+      {
+        "id": "39583334-9729-4a26-8a5b-0044e51d0746",
+        "status": "Available",
+        "created_at": "2023-08-13T23:18:17.920Z",
+        "updated_at": "2023-08-14T03:59:57.080Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "31b64a17-6253-46a7-ac21-2ee12f65d2c7",
+        "status": "In Use",
+        "created_at": "2023-08-13T10:24:05.653Z",
+        "updated_at": "2023-08-13T18:46:50.994Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "132dfc9a-097b-44fe-84db-1a9bf67750e5",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-13T17:48:54.484Z",
+        "updated_at": "2023-08-13T12:27:00.413Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a1c36240-99a4-4e1e-b000-e4489c477f87",
+        "status": "Reserved",
+        "created_at": "2023-08-13T21:16:27.649Z",
+        "updated_at": "2023-08-14T05:36:16.721Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d35d31a0-5474-45b9-8f4a-1ad172ac44c4",
+        "status": "Out of Service",
+        "created_at": "2023-08-14T02:50:06.564Z",
+        "updated_at": "2023-08-13T09:18:37.589Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "589e5398-1479-4fe9-b8cc-675a6f89e7a0",
+        "rental_start": "2023-08-13T20:13:49.568Z",
+        "rental_end": "2023-08-13T10:20:48.736Z",
+        "created_at": "2023-08-13T22:21:38.839Z",
+        "updated_at": "2023-08-14T04:33:44.386Z",
+        "bike_id": "d35d31a0-5474-45b9-8f4a-1ad172ac44c4",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "857b65e3-953c-46b2-b33b-5c8f68e1e491",
+        "rental_start": "2023-08-13T18:52:16.244Z",
+        "rental_end": "2023-08-14T03:06:54.169Z",
+        "created_at": "2023-08-13T22:11:22.880Z",
+        "updated_at": "2023-08-13T14:19:50.193Z",
+        "bike_id": "d35d31a0-5474-45b9-8f4a-1ad172ac44c4",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "8a25cdf9-aa32-4202-a7bb-7623607c8580",
+        "rental_start": "2023-08-13T09:04:17.963Z",
+        "rental_end": "2023-08-13T11:59:15.693Z",
+        "created_at": "2023-08-13T07:22:30.760Z",
+        "updated_at": "2023-08-14T05:10:15.359Z",
+        "bike_id": "d35d31a0-5474-45b9-8f4a-1ad172ac44c4",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "be36799e-399b-41f0-aed3-7e643682c6a5",
+        "rental_start": "2023-08-13T13:58:20.250Z",
+        "rental_end": "2023-08-13T23:25:08.421Z",
+        "created_at": "2023-08-13T11:21:37.447Z",
+        "updated_at": "2023-08-13T08:41:31.719Z",
+        "bike_id": "d35d31a0-5474-45b9-8f4a-1ad172ac44c4",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "24e57111-f6ce-48e5-b288-f347cb939887",
+        "rental_start": "2023-08-13T13:55:01.948Z",
+        "rental_end": "2023-08-13T09:45:10.288Z",
+        "created_at": "2023-08-14T04:53:37.601Z",
+        "updated_at": "2023-08-13T15:13:54.125Z",
+        "bike_id": "132dfc9a-097b-44fe-84db-1a9bf67750e5",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "acbb088e-9257-4e7a-b311-b2aef674b425",
+        "email": "Xavier89@hotmail.com",
+        "firstName": "Israel",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1028.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f1d8c8e2-dbee-4aba-9124-0dda9c9b148c",
+        "email": "Richard.Wisozk47@gmail.com",
+        "firstName": "Randi",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43182686",
+        "tenantId": null
+      },
+      {
+        "reference": "afb33d63-a9f9-4f2a-b4ac-03ed6c22d604",
+        "email": "Marianna.Reinger70@yahoo.com",
+        "firstName": "Franco",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/734.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "194d86e8-4502-4860-9a33-1b5b1fa89486",
+        "email": "Marcellus_Stamm@hotmail.com",
+        "firstName": "Citlalli",
+        "lastName": "Fisher-Crona",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62625228",
+        "tenantId": null
+      },
+      {
+        "reference": "cc675f4e-224d-4ca7-99a1-05af0788c186",
+        "email": "Faustino75@hotmail.com",
+        "firstName": "Broderick",
+        "lastName": "Corkery",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94716737",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "0db5547e-d454-484d-8530-be7967c82144",
+        "status": "Available",
+        "created_at": "2023-08-13T21:04:09.257Z",
+        "updated_at": "2023-08-13T13:23:36.360Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c91f4b3e-e60a-4388-b602-d9452c53c342",
+        "status": "In Use",
+        "created_at": "2023-08-13T18:00:19.527Z",
+        "updated_at": "2023-08-14T06:29:19.697Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fab5b3be-3a30-4175-803a-7c879c8e9f79",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-13T08:50:59.396Z",
+        "updated_at": "2023-08-14T01:58:09.520Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "18210057-9fbc-4959-bf78-32a7fa9ee952",
+        "status": "Reserved",
+        "created_at": "2023-08-13T22:59:15.706Z",
+        "updated_at": "2023-08-13T12:11:48.286Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "963459bb-c60e-4609-aa21-cdf925d6702f",
+        "status": "Out of Service",
+        "created_at": "2023-08-13T10:32:04.972Z",
+        "updated_at": "2023-08-14T02:31:38.260Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "bcca25cf-ac9a-4423-afdd-b85e743ed127",
+        "rental_start": "2023-08-13T21:24:22.635Z",
+        "rental_end": "2023-08-13T13:46:03.666Z",
+        "created_at": "2023-08-13T11:14:10.569Z",
+        "updated_at": "2023-08-13T09:48:33.144Z",
+        "bike_id": "18210057-9fbc-4959-bf78-32a7fa9ee952",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "f262b0dc-dca9-4f7b-8519-11c505873020",
+        "rental_start": "2023-08-14T00:28:33.888Z",
+        "rental_end": "2023-08-13T08:49:10.722Z",
+        "created_at": "2023-08-14T00:56:27.335Z",
+        "updated_at": "2023-08-13T13:15:37.745Z",
+        "bike_id": "fab5b3be-3a30-4175-803a-7c879c8e9f79",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "d28824e9-70b1-424b-b89f-7e22ce4d2e14",
+        "rental_start": "2023-08-14T03:44:12.489Z",
+        "rental_end": "2023-08-14T00:51:42.163Z",
+        "created_at": "2023-08-13T17:51:16.938Z",
+        "updated_at": "2023-08-13T15:26:56.987Z",
+        "bike_id": "18210057-9fbc-4959-bf78-32a7fa9ee952",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "aecafcfe-a6a9-488b-a453-68d04246d047",
+        "rental_start": "2023-08-14T04:47:46.716Z",
+        "rental_end": "2023-08-14T00:54:09.970Z",
+        "created_at": "2023-08-14T01:50:15.427Z",
+        "updated_at": "2023-08-14T03:39:02.537Z",
+        "bike_id": "fab5b3be-3a30-4175-803a-7c879c8e9f79",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "35113315-1d46-4f9d-bc12-3ce0e3ddd07f",
+        "rental_start": "2023-08-13T20:56:25.405Z",
+        "rental_end": "2023-08-14T03:54:27.018Z",
+        "created_at": "2023-08-14T01:28:51.356Z",
+        "updated_at": "2023-08-13T15:35:10.018Z",
+        "bike_id": "963459bb-c60e-4609-aa21-cdf925d6702f",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e7b2917b-ba02-4c33-aa48-a10794030231",
+        "email": "Geraldine.Goyette@yahoo.com",
+        "firstName": "Dane",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/533.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c573813c-eeae-4ec1-bdc5-02f3b2e52804",
+        "email": "Dulce32@yahoo.com",
+        "firstName": "Aida",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38177312",
+        "tenantId": null
+      },
+      {
+        "reference": "e7562c80-fc2b-49f7-92a7-69623c02ecbb",
+        "email": "Fanny3@gmail.com",
+        "firstName": "Elliot",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/625.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b2628531-ca3e-4092-bdff-83dd9c098d8e",
+        "email": "Vernice2@gmail.com",
+        "firstName": "Yessenia",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/20.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f3911886-d545-4e9e-8a1c-1b48135bed93",
+        "email": "Rolando_Treutel@hotmail.com",
+        "firstName": "Will",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/791.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "02fda776-377f-4ae2-97c1-1d731789dae4",
+        "status": "Available",
+        "created_at": "2023-08-13T23:55:06.008Z",
+        "updated_at": "2023-08-13T22:17:09.903Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6f252619-ad82-4a88-a18b-48869975e775",
+        "status": "In Use",
+        "created_at": "2023-08-13T18:11:51.942Z",
+        "updated_at": "2023-08-13T19:24:12.492Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c11c472f-a372-4f45-b01d-c269fe6534df",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-14T02:01:57.213Z",
+        "updated_at": "2023-08-14T05:29:11.113Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d4fa7189-8855-4ffd-a98a-e9fdc1600c8a",
+        "status": "Reserved",
+        "created_at": "2023-08-14T06:48:05.595Z",
+        "updated_at": "2023-08-13T18:28:09.538Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f54c03f7-71ce-44ac-a6ef-fb7069bc75c6",
+        "status": "Out of Service",
+        "created_at": "2023-08-13T20:57:11.912Z",
+        "updated_at": "2023-08-14T00:18:54.679Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "36416bb0-fe03-423d-8df0-1b2e35deab78",
+        "rental_start": "2023-08-14T01:40:34.610Z",
+        "rental_end": "2023-08-13T17:21:43.922Z",
+        "created_at": "2023-08-13T11:07:37.518Z",
+        "updated_at": "2023-08-14T00:26:37.066Z",
+        "bike_id": "d4fa7189-8855-4ffd-a98a-e9fdc1600c8a",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "d9f9b820-8ec8-4e89-ab0e-63ac35c9abb9",
+        "rental_start": "2023-08-14T00:19:05.764Z",
+        "rental_end": "2023-08-13T08:53:53.505Z",
+        "created_at": "2023-08-13T15:15:56.269Z",
+        "updated_at": "2023-08-13T19:59:25.334Z",
+        "bike_id": "6f252619-ad82-4a88-a18b-48869975e775",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "909a48f4-b903-403c-911c-32dc94a2c25d",
+        "rental_start": "2023-08-14T04:02:49.860Z",
+        "rental_end": "2023-08-13T20:17:47.486Z",
+        "created_at": "2023-08-13T14:03:18.532Z",
+        "updated_at": "2023-08-13T14:56:32.934Z",
+        "bike_id": "c11c472f-a372-4f45-b01d-c269fe6534df",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "bd5e973b-adec-4e7c-861d-4f4da16d549d",
+        "rental_start": "2023-08-13T12:16:54.642Z",
+        "rental_end": "2023-08-13T10:01:22.122Z",
+        "created_at": "2023-08-13T18:57:07.242Z",
+        "updated_at": "2023-08-13T17:11:58.636Z",
+        "bike_id": "f54c03f7-71ce-44ac-a6ef-fb7069bc75c6",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "1e942e2f-0286-47c8-8a13-79f3ef30fc4a",
+        "rental_start": "2023-08-13T12:33:10.391Z",
+        "rental_end": "2023-08-13T09:17:07.652Z",
+        "created_at": "2023-08-13T16:49:19.301Z",
+        "updated_at": "2023-08-13T16:41:41.044Z",
+        "bike_id": "6f252619-ad82-4a88-a18b-48869975e775",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7f901e31-eeca-4a29-a81a-11ef7ac0dff9",
+        "email": "Shany79@hotmail.com",
+        "firstName": "Christine",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44688249",
+        "tenantId": null
+      },
+      {
+        "reference": "c216788c-a094-4ac9-8568-c5d0100ddb1e",
+        "email": "Nia.Cronin@gmail.com",
+        "firstName": "Jessika",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99670940",
+        "tenantId": null
+      },
+      {
+        "reference": "3babbe89-4737-4cfe-9c25-f1044efa7ff9",
+        "email": "Caleigh.Borer@gmail.com",
+        "firstName": "Alanis",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1043.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "526ca8b5-b59d-46f6-8c98-68b70b95e095",
+        "email": "Hyman4@hotmail.com",
+        "firstName": "Amie",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/561.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "88d2257e-99ad-404f-8fcf-0b1391d35c9d",
+        "email": "Alvis.Heaney69@gmail.com",
+        "firstName": "Braulio",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/693.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "a52718fc-5006-438c-9fd3-77e13bff4a86",
+        "status": "Available",
+        "created_at": "2023-08-13T08:06:43.109Z",
+        "updated_at": "2023-08-13T13:58:47.027Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c48770b2-6255-4006-813f-6507437cdefb",
+        "status": "In Use",
+        "created_at": "2023-08-14T01:04:48.854Z",
+        "updated_at": "2023-08-13T09:01:19.393Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "72322e26-e0f2-4945-b415-f375d9c26675",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-13T17:42:12.125Z",
+        "updated_at": "2023-08-14T00:46:52.076Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1e076b2a-b648-47f9-b811-443697f7b71b",
+        "status": "Reserved",
+        "created_at": "2023-08-13T09:22:10.128Z",
+        "updated_at": "2023-08-13T18:13:22.307Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f63c14d8-9586-4228-9df9-e979ef633428",
+        "status": "Out of Service",
+        "created_at": "2023-08-13T09:06:43.293Z",
+        "updated_at": "2023-08-14T01:26:50.649Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "c7980c3f-6e44-46b5-ab5a-836045f4c9d8",
+        "rental_start": "2023-08-13T15:56:51.668Z",
+        "rental_end": "2023-08-13T08:58:05.293Z",
+        "created_at": "2023-08-13T11:39:25.938Z",
+        "updated_at": "2023-08-13T23:56:48.534Z",
+        "bike_id": "a52718fc-5006-438c-9fd3-77e13bff4a86",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "acd456e8-1154-4a30-8cd4-5480bc11a7da",
+        "rental_start": "2023-08-13T12:08:12.980Z",
+        "rental_end": "2023-08-14T06:33:50.364Z",
+        "created_at": "2023-08-14T01:05:50.376Z",
+        "updated_at": "2023-08-13T12:02:48.975Z",
+        "bike_id": "72322e26-e0f2-4945-b415-f375d9c26675",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "aa14e3b8-0517-4497-98c2-2d22ffa22dfd",
+        "rental_start": "2023-08-14T06:03:47.499Z",
+        "rental_end": "2023-08-13T13:01:52.675Z",
+        "created_at": "2023-08-13T21:34:14.396Z",
+        "updated_at": "2023-08-13T09:14:42.420Z",
+        "bike_id": "1e076b2a-b648-47f9-b811-443697f7b71b",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "929a572a-7bd5-46bf-9130-c5376f989add",
+        "rental_start": "2023-08-14T05:12:47.459Z",
+        "rental_end": "2023-08-13T22:48:31.031Z",
+        "created_at": "2023-08-14T03:15:54.207Z",
+        "updated_at": "2023-08-13T08:41:29.342Z",
+        "bike_id": "72322e26-e0f2-4945-b415-f375d9c26675",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "2317fb75-df03-40cb-b457-3295ddd0091e",
+        "rental_start": "2023-08-14T00:00:09.232Z",
+        "rental_end": "2023-08-13T21:14:50.887Z",
+        "created_at": "2023-08-13T15:45:33.061Z",
+        "updated_at": "2023-08-13T11:55:59.435Z",
+        "bike_id": "a52718fc-5006-438c-9fd3-77e13bff4a86",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "03141fbd-b0b1-4a32-b554-456a0fcec4fd",
+        "email": "Bessie.Blick83@gmail.com",
+        "firstName": "Naomi",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65873680",
+        "tenantId": null
+      },
+      {
+        "reference": "66d4c9ee-d84e-4a64-a7a5-6751c6c12de9",
+        "email": "Karine45@hotmail.com",
+        "firstName": "Winona",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19732396",
+        "tenantId": null
+      },
+      {
+        "reference": "1affddb1-d4e7-49d2-ad95-6fc29a54563e",
+        "email": "Rupert.Steuber@gmail.com",
+        "firstName": "Marguerite",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/104.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "33f2f96d-024d-4b42-87d2-99f3a2ec0c32",
+        "email": "Franco.Jast@gmail.com",
+        "firstName": "Chandler",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58592550",
+        "tenantId": null
+      },
+      {
+        "reference": "5abe0b09-bb98-4031-8f5a-7a9ae2db8d4f",
+        "email": "Susan.Cartwright@gmail.com",
+        "firstName": "Devante",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39937935",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "56fa74fe-af6e-43c7-94fd-98b64cc8760b",
+        "status": "Available",
+        "created_at": "2023-08-14T02:38:23.721Z",
+        "updated_at": "2023-08-13T18:07:42.144Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7aa9086d-eee8-440b-906f-9f21a11b34ab",
+        "status": "In Use",
+        "created_at": "2023-08-14T04:41:06.138Z",
+        "updated_at": "2023-08-14T04:09:29.009Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7d3416a8-4173-428b-aae3-b3232bec5095",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-14T04:38:39.789Z",
+        "updated_at": "2023-08-13T11:29:14.856Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4f406350-3a19-4e4e-9698-40acdf8616ed",
+        "status": "Reserved",
+        "created_at": "2023-08-13T17:51:01.177Z",
+        "updated_at": "2023-08-14T05:35:23.583Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f0eb59c8-9dfa-4d21-a35b-7abddb33fdef",
+        "status": "Out of Service",
+        "created_at": "2023-08-13T07:46:05.417Z",
+        "updated_at": "2023-08-13T12:08:14.027Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "ee57ac83-db13-4954-8b2f-f932707b1842",
+        "rental_start": "2023-08-13T08:33:21.872Z",
+        "rental_end": "2023-08-13T10:58:34.731Z",
+        "created_at": "2023-08-14T06:36:22.663Z",
+        "updated_at": "2023-08-13T18:53:06.431Z",
+        "bike_id": "4f406350-3a19-4e4e-9698-40acdf8616ed",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "2e98638b-d2ad-4c63-adf1-a63ad0d53adb",
+        "rental_start": "2023-08-14T05:44:08.807Z",
+        "rental_end": "2023-08-14T05:47:27.918Z",
+        "created_at": "2023-08-13T11:21:56.834Z",
+        "updated_at": "2023-08-13T11:03:10.687Z",
+        "bike_id": "f0eb59c8-9dfa-4d21-a35b-7abddb33fdef",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "f899b25d-0c57-4153-b416-fd069a278645",
+        "rental_start": "2023-08-13T19:10:27.219Z",
+        "rental_end": "2023-08-13T10:03:20.320Z",
+        "created_at": "2023-08-13T20:00:29.378Z",
+        "updated_at": "2023-08-14T06:37:26.497Z",
+        "bike_id": "7d3416a8-4173-428b-aae3-b3232bec5095",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "42c53537-d00b-4708-9003-e85b9781fa79",
+        "rental_start": "2023-08-13T07:32:10.095Z",
+        "rental_end": "2023-08-13T11:45:41.072Z",
+        "created_at": "2023-08-14T06:49:52.246Z",
+        "updated_at": "2023-08-14T05:57:53.557Z",
+        "bike_id": "7aa9086d-eee8-440b-906f-9f21a11b34ab",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "afd5f60e-0bb1-4e3a-99b5-8cd57691d055",
+        "rental_start": "2023-08-13T17:48:05.270Z",
+        "rental_end": "2023-08-13T11:03:20.976Z",
+        "created_at": "2023-08-14T00:55:25.690Z",
+        "updated_at": "2023-08-13T11:56:59.403Z",
+        "bike_id": "7aa9086d-eee8-440b-906f-9f21a11b34ab",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3fcad036-6ac7-47e4-9304-16767c239689",
+        "email": "Dandre.King@gmail.com",
+        "firstName": "Hazel",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18658017",
+        "tenantId": null
+      },
+      {
+        "reference": "4fd4f686-d2ea-4343-8349-8768965e9bb7",
+        "email": "Dayne24@yahoo.com",
+        "firstName": "Dayna",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35898621",
+        "tenantId": null
+      },
+      {
+        "reference": "18eec3e9-aa5a-41e1-87bd-76f0455183f5",
+        "email": "Shana_Stracke42@hotmail.com",
+        "firstName": "Jerrod",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94812547",
+        "tenantId": null
+      },
+      {
+        "reference": "6bcbe2a0-51d9-4ca5-aa58-797c0e1d2377",
+        "email": "Granville_Denesik62@gmail.com",
+        "firstName": "Bud",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1191.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "02af7b85-b568-4aff-8b3a-fa6e6d78a833",
+        "email": "Garrison.Kunde2@hotmail.com",
+        "firstName": "Gennaro",
+        "lastName": "Greenholt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1084.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "60739134-ac2b-47c8-a6d3-b0033abb4d78",
+        "status": "Available",
+        "created_at": "2023-08-14T04:02:38.715Z",
+        "updated_at": "2023-08-13T13:23:42.105Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b1800c60-ed20-4910-8d14-845e7e6d9c14",
+        "status": "In Use",
+        "created_at": "2023-08-14T02:44:56.091Z",
+        "updated_at": "2023-08-13T12:02:05.367Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "629c1d32-61e8-471b-8650-3b9f456a420f",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-14T01:04:22.473Z",
+        "updated_at": "2023-08-14T01:01:48.404Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3c264afb-f90b-4d0f-96e0-dca725efcff1",
+        "status": "Reserved",
+        "created_at": "2023-08-13T08:00:18.231Z",
+        "updated_at": "2023-08-13T23:11:56.282Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e94c2ec8-0bac-4ec7-9005-8ad6bbb45fe9",
+        "status": "Out of Service",
+        "created_at": "2023-08-14T04:27:05.137Z",
+        "updated_at": "2023-08-13T21:41:06.939Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "1d81c33c-a31b-4c7c-882f-fccc426c996c",
+        "rental_start": "2023-08-14T05:07:25.325Z",
+        "rental_end": "2023-08-13T20:52:32.160Z",
+        "created_at": "2023-08-13T15:36:38.418Z",
+        "updated_at": "2023-08-13T13:44:40.621Z",
+        "bike_id": "60739134-ac2b-47c8-a6d3-b0033abb4d78",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "756fe1cd-ecd0-4bb2-a466-bd60fab709d6",
+        "rental_start": "2023-08-13T15:14:16.707Z",
+        "rental_end": "2023-08-13T11:03:29.384Z",
+        "created_at": "2023-08-13T12:56:08.603Z",
+        "updated_at": "2023-08-13T22:38:43.559Z",
+        "bike_id": "3c264afb-f90b-4d0f-96e0-dca725efcff1",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "425cb64b-b738-48bd-bd99-0286b691e548",
+        "rental_start": "2023-08-13T08:07:11.188Z",
+        "rental_end": "2023-08-13T07:58:30.395Z",
+        "created_at": "2023-08-13T08:55:16.052Z",
+        "updated_at": "2023-08-13T18:34:28.117Z",
+        "bike_id": "60739134-ac2b-47c8-a6d3-b0033abb4d78",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "85bca652-545c-4b08-8d10-00dd0b4c9463",
+        "rental_start": "2023-08-13T15:39:09.893Z",
+        "rental_end": "2023-08-13T11:40:37.863Z",
+        "created_at": "2023-08-14T03:38:29.293Z",
+        "updated_at": "2023-08-13T16:07:44.534Z",
+        "bike_id": "e94c2ec8-0bac-4ec7-9005-8ad6bbb45fe9",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "56f2ae7e-a98c-48ec-899f-e2d10350ee9d",
+        "rental_start": "2023-08-13T09:11:02.691Z",
+        "rental_end": "2023-08-13T08:23:36.355Z",
+        "created_at": "2023-08-13T11:19:25.585Z",
+        "updated_at": "2023-08-13T08:49:10.330Z",
+        "bike_id": "b1800c60-ed20-4910-8d14-845e7e6d9c14",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cd5de687-8469-4ff1-be82-b265cd773a8d",
+        "email": "Orpha_Lind-Sawayn74@yahoo.com",
+        "firstName": "Jovanny",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43103038",
+        "tenantId": null
+      },
+      {
+        "reference": "15eb2b87-e124-493a-95eb-fb4b2f6d6adc",
+        "email": "Una.Altenwerth33@hotmail.com",
+        "firstName": "Kim",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/669.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cb531744-b90f-4e5e-9682-92aac07727e3",
+        "email": "Grant32@hotmail.com",
+        "firstName": "Sister",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20724250",
+        "tenantId": null
+      },
+      {
+        "reference": "83b930f9-6e1c-4021-b885-83e5baac0b8a",
+        "email": "Terence.Purdy99@yahoo.com",
+        "firstName": "Sammy",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40033615",
+        "tenantId": null
+      },
+      {
+        "reference": "4e1a936c-6093-44a6-8a9b-4a23dde12dad",
+        "email": "Darien_Murazik17@yahoo.com",
+        "firstName": "Flavie",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79599810",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "206a6e04-c67f-4ec9-b583-dd4315bd88a7",
+        "status": "Available",
+        "created_at": "2023-08-14T03:47:56.820Z",
+        "updated_at": "2023-08-14T03:31:12.956Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6f675e12-8ee1-4b90-8446-74578cb76953",
+        "status": "In Use",
+        "created_at": "2023-08-13T14:58:29.599Z",
+        "updated_at": "2023-08-14T01:10:09.327Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3bdcc1cf-8f61-429d-b4ac-88fa73f9071e",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-13T14:54:12.857Z",
+        "updated_at": "2023-08-13T15:02:28.866Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "68d50161-2d53-466a-a455-e35c6563c8c9",
+        "status": "Reserved",
+        "created_at": "2023-08-14T04:54:12.139Z",
+        "updated_at": "2023-08-14T06:41:18.957Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4fd5dda7-f059-4b62-bc0e-a971e4f70388",
+        "status": "Out of Service",
+        "created_at": "2023-08-14T01:46:42.403Z",
+        "updated_at": "2023-08-13T19:07:55.627Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "c8755797-c075-4c82-bf50-4edad5093bb4",
+        "rental_start": "2023-08-13T22:19:47.641Z",
+        "rental_end": "2023-08-13T16:40:19.618Z",
+        "created_at": "2023-08-13T07:25:07.623Z",
+        "updated_at": "2023-08-13T22:55:03.357Z",
+        "bike_id": "68d50161-2d53-466a-a455-e35c6563c8c9",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "cafd0731-bcf8-4be3-b208-306e1bde05d6",
+        "rental_start": "2023-08-13T16:50:42.284Z",
+        "rental_end": "2023-08-14T02:46:58.837Z",
+        "created_at": "2023-08-14T06:17:25.234Z",
+        "updated_at": "2023-08-13T21:54:41.587Z",
+        "bike_id": "6f675e12-8ee1-4b90-8446-74578cb76953",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c04c3575-4fa8-491c-8675-25a44eedde3e",
+        "rental_start": "2023-08-13T14:27:00.038Z",
+        "rental_end": "2023-08-13T17:29:20.739Z",
+        "created_at": "2023-08-13T13:12:45.391Z",
+        "updated_at": "2023-08-13T18:24:46.269Z",
+        "bike_id": "6f675e12-8ee1-4b90-8446-74578cb76953",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "6737eb40-b289-4032-a7bf-18ffa50ab644",
+        "rental_start": "2023-08-13T08:19:20.721Z",
+        "rental_end": "2023-08-14T05:25:59.524Z",
+        "created_at": "2023-08-13T23:49:26.896Z",
+        "updated_at": "2023-08-13T11:23:08.614Z",
+        "bike_id": "206a6e04-c67f-4ec9-b583-dd4315bd88a7",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "284f9455-28cd-4aae-a4a3-4b556c2ef041",
+        "rental_start": "2023-08-13T12:47:40.026Z",
+        "rental_end": "2023-08-13T16:49:30.338Z",
+        "created_at": "2023-08-13T14:48:16.139Z",
+        "updated_at": "2023-08-13T10:21:41.922Z",
+        "bike_id": "206a6e04-c67f-4ec9-b583-dd4315bd88a7",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "16c42a50-59d8-4a0a-8969-928b8f039b3f",
+        "email": "Santina.Friesen15@yahoo.com",
+        "firstName": "Kevin",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54206940",
+        "tenantId": null
+      },
+      {
+        "reference": "530f9f4a-82fc-41a6-8a14-8534f870704c",
+        "email": "Thaddeus91@hotmail.com",
+        "firstName": "Abdiel",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/514.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1b110d0b-0ad0-4218-9a3c-4f810bfc7bed",
+        "email": "Devan.Smitham@gmail.com",
+        "firstName": "Felicity",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1479959",
+        "tenantId": null
+      },
+      {
+        "reference": "896e0fec-6110-45e2-a523-b3356b6ce2a6",
+        "email": "Arnoldo30@gmail.com",
+        "firstName": "Margarette",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15001672",
+        "tenantId": null
+      },
+      {
+        "reference": "d09f8ca2-e979-4232-b9f3-bcabb1211502",
+        "email": "Frances99@yahoo.com",
+        "firstName": "Pierre",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/341.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "50290f17-76e2-4c32-b618-ad3c547d859e",
+        "status": "Available",
+        "created_at": "2023-08-14T02:36:09.223Z",
+        "updated_at": "2023-08-13T09:36:06.423Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ce8deb1e-99f3-4699-aec1-667244c698c8",
+        "status": "In Use",
+        "created_at": "2023-08-14T02:25:05.947Z",
+        "updated_at": "2023-08-13T21:41:39.839Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b7178796-8e6f-4641-86b9-db87754dd035",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-14T03:59:13.395Z",
+        "updated_at": "2023-08-14T06:44:11.711Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f3011108-e30d-48cc-8f85-adbb4bb41da8",
+        "status": "Reserved",
+        "created_at": "2023-08-13T09:24:29.662Z",
+        "updated_at": "2023-08-13T20:47:14.440Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "abd65433-25bf-4447-8174-ed9af155fa21",
+        "status": "Out of Service",
+        "created_at": "2023-08-13T11:15:58.096Z",
+        "updated_at": "2023-08-13T12:15:08.468Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "d7b4e096-5996-43ce-9ee9-3eddf2a0cc84",
+        "rental_start": "2023-08-13T18:03:18.491Z",
+        "rental_end": "2023-08-13T10:50:07.998Z",
+        "created_at": "2023-08-13T11:14:53.482Z",
+        "updated_at": "2023-08-14T03:54:52.315Z",
+        "bike_id": "abd65433-25bf-4447-8174-ed9af155fa21",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c91d0999-1e25-45fb-8a50-afa5b0e23a9d",
+        "rental_start": "2023-08-14T01:58:50.145Z",
+        "rental_end": "2023-08-14T01:40:33.295Z",
+        "created_at": "2023-08-13T17:18:28.612Z",
+        "updated_at": "2023-08-14T01:12:51.632Z",
+        "bike_id": "abd65433-25bf-4447-8174-ed9af155fa21",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c4dba160-972f-43fb-bdf8-86cd6ab36674",
+        "rental_start": "2023-08-13T12:22:53.551Z",
+        "rental_end": "2023-08-14T01:07:16.006Z",
+        "created_at": "2023-08-13T10:17:35.817Z",
+        "updated_at": "2023-08-14T00:43:52.529Z",
+        "bike_id": "ce8deb1e-99f3-4699-aec1-667244c698c8",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "bec867f9-9187-449c-9b68-21dca9cef6f1",
+        "rental_start": "2023-08-13T21:40:26.988Z",
+        "rental_end": "2023-08-13T07:57:58.691Z",
+        "created_at": "2023-08-13T15:14:33.937Z",
+        "updated_at": "2023-08-14T01:31:24.552Z",
+        "bike_id": "abd65433-25bf-4447-8174-ed9af155fa21",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "a050c3c8-7d15-45bb-8648-4713ed40ec5c",
+        "rental_start": "2023-08-14T07:06:17.301Z",
+        "rental_end": "2023-08-13T16:21:26.186Z",
+        "created_at": "2023-08-13T13:37:32.061Z",
+        "updated_at": "2023-08-13T09:22:39.582Z",
+        "bike_id": "f3011108-e30d-48cc-8f85-adbb4bb41da8",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "26d12187-0a75-4669-bc4d-2970ec42f7dc",
+        "email": "Domenic72@yahoo.com",
+        "firstName": "Mikayla",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57483736",
+        "tenantId": null
+      },
+      {
+        "reference": "22c16ae5-fdf2-4223-8043-d85d64bc8140",
+        "email": "Shayne.Beier@hotmail.com",
+        "firstName": "Maiya",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/925.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bbd2da08-63a4-45fa-a9ff-8de6124296a1",
+        "email": "Kaylin_Okuneva12@yahoo.com",
+        "firstName": "Cortney",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/650.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d46b556f-24b0-49c5-95cf-8eb8b8de5846",
+        "email": "Merl5@gmail.com",
+        "firstName": "Elyssa",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92629079",
+        "tenantId": null
+      },
+      {
+        "reference": "ea1f4e63-e31a-4b72-97c5-61df2d8dcb05",
+        "email": "Enola.Brekke@gmail.com",
+        "firstName": "Genevieve",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/742.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "33bb10ad-b878-4c06-b47a-4ea174cbb224",
+        "status": "Available",
+        "created_at": "2023-08-13T07:53:09.765Z",
+        "updated_at": "2023-08-13T11:08:29.318Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9f35ab4a-f00e-4ba8-90ac-4fb72ffa9156",
+        "status": "In Use",
+        "created_at": "2023-08-13T10:23:21.140Z",
+        "updated_at": "2023-08-14T05:59:19.968Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e94d6032-b981-45c7-b63d-cdb171b65885",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-14T04:18:08.823Z",
+        "updated_at": "2023-08-13T23:36:18.852Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "74980d17-04fa-4399-84c2-88e6a24fdf9d",
+        "status": "Reserved",
+        "created_at": "2023-08-13T17:23:19.480Z",
+        "updated_at": "2023-08-13T13:44:02.551Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "794bc012-49b0-430c-9552-7f19274ae23d",
+        "status": "Out of Service",
+        "created_at": "2023-08-13T14:54:08.897Z",
+        "updated_at": "2023-08-13T13:27:11.827Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "ff53e38e-54ac-4628-83af-f71c3f5958a4",
+        "rental_start": "2023-08-14T06:14:30.878Z",
+        "rental_end": "2023-08-14T06:31:41.724Z",
+        "created_at": "2023-08-13T10:48:49.384Z",
+        "updated_at": "2023-08-13T12:02:06.576Z",
+        "bike_id": "74980d17-04fa-4399-84c2-88e6a24fdf9d",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "215904da-490e-419b-92d2-e651a5445cb7",
+        "rental_start": "2023-08-13T14:23:50.631Z",
+        "rental_end": "2023-08-13T07:28:10.276Z",
+        "created_at": "2023-08-13T10:15:42.393Z",
+        "updated_at": "2023-08-13T12:31:39.164Z",
+        "bike_id": "e94d6032-b981-45c7-b63d-cdb171b65885",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "61392a3f-3803-41f0-be74-87c1e99c0280",
+        "rental_start": "2023-08-14T02:14:35.723Z",
+        "rental_end": "2023-08-13T15:38:15.894Z",
+        "created_at": "2023-08-13T20:10:57.784Z",
+        "updated_at": "2023-08-13T13:40:13.900Z",
+        "bike_id": "9f35ab4a-f00e-4ba8-90ac-4fb72ffa9156",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "444d52d8-2417-4ca8-a058-2c9c017b465e",
+        "rental_start": "2023-08-13T10:15:18.709Z",
+        "rental_end": "2023-08-13T12:19:41.722Z",
+        "created_at": "2023-08-13T08:13:07.247Z",
+        "updated_at": "2023-08-14T00:08:01.210Z",
+        "bike_id": "e94d6032-b981-45c7-b63d-cdb171b65885",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "655a86db-281d-4948-b193-ce8271312cea",
+        "rental_start": "2023-08-14T05:15:46.446Z",
+        "rental_end": "2023-08-14T04:07:40.734Z",
+        "created_at": "2023-08-13T10:19:20.997Z",
+        "updated_at": "2023-08-13T20:24:00.627Z",
+        "bike_id": "e94d6032-b981-45c7-b63d-cdb171b65885",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cd49325e-9d3b-4d52-b7ff-60ff8fc3de35",
+        "email": "Madie70@yahoo.com",
+        "firstName": "Rogelio",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/795.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "553f3334-a590-4937-a191-c7ff10949c6b",
+        "email": "Leila_Boehm@gmail.com",
+        "firstName": "Electa",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3257323",
+        "tenantId": null
+      },
+      {
+        "reference": "b469a737-9545-495a-b35a-cbe9c6a6073a",
+        "email": "Onie.Bashirian@gmail.com",
+        "firstName": "Alda",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/556.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e1464c21-cb96-4c20-bd5b-fed0287e22ee",
+        "email": "Laura_Hamill81@yahoo.com",
+        "firstName": "Reggie",
+        "lastName": "Gottlieb",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71391200",
+        "tenantId": null
+      },
+      {
+        "reference": "f559b192-05db-49a9-856e-e1e9b14250da",
+        "email": "Brandt.Gutkowski29@yahoo.com",
+        "firstName": "Justice",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/517.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "fd9223f9-f7d0-4e07-8b38-a03684fd5102",
+        "status": "Available",
+        "created_at": "2023-08-13T17:26:13.756Z",
+        "updated_at": "2023-08-14T04:23:51.344Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2d2e4d7f-c241-4505-a212-6b5016f5b33c",
+        "status": "In Use",
+        "created_at": "2023-08-13T17:19:14.617Z",
+        "updated_at": "2023-08-13T19:42:58.755Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "22a33f9b-27c3-4b73-9c97-9772e1a7817f",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-13T22:57:19.910Z",
+        "updated_at": "2023-08-13T09:18:29.613Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c79dd312-f93a-4b2b-b41c-9084774b5989",
+        "status": "Reserved",
+        "created_at": "2023-08-13T15:20:03.271Z",
+        "updated_at": "2023-08-13T20:37:08.173Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3e39af23-6b3f-488e-8a27-a8e465d36270",
+        "status": "Out of Service",
+        "created_at": "2023-08-14T05:05:07.393Z",
+        "updated_at": "2023-08-14T05:14:20.180Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "8b839f89-495b-4f81-ab6d-2112dd8b1a7d",
+        "rental_start": "2023-08-13T08:24:26.558Z",
+        "rental_end": "2023-08-13T21:04:08.096Z",
+        "created_at": "2023-08-13T17:37:31.962Z",
+        "updated_at": "2023-08-14T00:59:25.005Z",
+        "bike_id": "22a33f9b-27c3-4b73-9c97-9772e1a7817f",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "618713e3-8ac8-4574-a988-161ac926b86d",
+        "rental_start": "2023-08-13T12:05:38.541Z",
+        "rental_end": "2023-08-13T10:58:55.053Z",
+        "created_at": "2023-08-13T13:16:52.930Z",
+        "updated_at": "2023-08-13T23:53:35.255Z",
+        "bike_id": "3e39af23-6b3f-488e-8a27-a8e465d36270",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c8f2dc06-698d-442e-8247-b9db01a3bfce",
+        "rental_start": "2023-08-13T19:19:32.271Z",
+        "rental_end": "2023-08-13T11:21:50.494Z",
+        "created_at": "2023-08-14T02:58:15.972Z",
+        "updated_at": "2023-08-14T04:34:50.365Z",
+        "bike_id": "c79dd312-f93a-4b2b-b41c-9084774b5989",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "065db4a6-903b-4370-a22b-c9f90e0bf626",
+        "rental_start": "2023-08-13T22:06:30.184Z",
+        "rental_end": "2023-08-14T05:09:36.439Z",
+        "created_at": "2023-08-14T02:21:51.874Z",
+        "updated_at": "2023-08-14T00:47:01.997Z",
+        "bike_id": "fd9223f9-f7d0-4e07-8b38-a03684fd5102",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "73e2969c-3868-4e8b-9be2-54ebadabbdc1",
+        "rental_start": "2023-08-14T03:01:23.335Z",
+        "rental_end": "2023-08-13T20:30:49.854Z",
+        "created_at": "2023-08-14T04:47:56.168Z",
+        "updated_at": "2023-08-13T13:27:01.516Z",
+        "bike_id": "3e39af23-6b3f-488e-8a27-a8e465d36270",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aa561b71-f0a2-4655-8c62-a8eff8a3d3e9",
+        "email": "Garrett99@gmail.com",
+        "firstName": "Kody",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36047101",
+        "tenantId": null
+      },
+      {
+        "reference": "c24c403d-e4d6-40d0-9a77-dafd6c01cb3b",
+        "email": "Reagan99@gmail.com",
+        "firstName": "Norris",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/726.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2a4159dd-2a28-45ca-b856-a93afc29f1c8",
+        "email": "Kelly_Thiel49@yahoo.com",
+        "firstName": "Tressa",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1105.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dbe90346-3f95-438d-a9c9-89c3d722b22f",
+        "email": "Edwin.Mante47@hotmail.com",
+        "firstName": "Jaqueline",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97346509",
+        "tenantId": null
+      },
+      {
+        "reference": "12fc7b73-f961-4c6a-9785-729fa0bc2427",
+        "email": "Gust_Beier@yahoo.com",
+        "firstName": "Madelynn",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/685.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
